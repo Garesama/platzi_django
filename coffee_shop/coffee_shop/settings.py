@@ -90,15 +90,15 @@ WSGI_APPLICATION = 'coffee_shop.wsgi.application'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
 DATABASES = {
-    'default': env.db('DJANGO_DB_URL')
-    # {
-    #     'ENGINE': 'django.db.backends.postgresql',
-    #     'NAME': 'postgres',
-    #     'HOST': 'db-curso-django.c3u4gyemg3lt.us-east-1.rds.amazonaws.com',
-    #     'PORT': '5432',
-    #     'USER': env.str('DJANGO_DB_USER'),
-    #     'PASSWORD': env.str('DJANGO_DB_PASSWORD'),
-    # }
+    'default': #env.db('DJANGO_DB_URL')
+    {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'postgres',
+        'HOST': 'db-curso-django.c3u4gyemg3lt.us-east-1.rds.amazonaws.com',
+        'PORT': '5432',
+        'USER': env.str('DJANGO_DB_USER'),
+        'PASSWORD': env.str('DJANGO_DB_PASSWORD'),
+    }
 }
 
 
