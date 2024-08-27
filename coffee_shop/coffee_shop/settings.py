@@ -29,9 +29,7 @@ SECRET_KEY = 'django-insecure-7g9!k_s%e88uod&!#w$g(nu_0n0fy#9(5m2h(utklu(2w+(&*3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    'http://coffee-shop-production.eba-nbrwvzws.us-east-1.elasticbeanstalk.com/'
-]
+ALLOWED_HOSTS = ['coffee-shop-production.eba-nbrwvzws.us-east-1.elasticbeanstalk.com']
 
 
 # Application definition
